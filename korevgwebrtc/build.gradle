@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+    api 'androidx.annotation:annotation:1.10.0'
+}
+
+android {
+    namespace 'com.korevg.mv.webrtcsdk'
+    compileSdk 35
+
+    defaultConfig {
+        minSdkVersion 26
+    }
+
+    buildFeatures {
+        buildConfig false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KoreVgWebRtc</string>
+    <string name="sdk_status_loading">Checking the local WebRTC source module…</string>
+    <string name="sdk_linked">Linked source API: %1$s</string>
+</resources>

@@ -1,0 +1,13 @@
+# Android/Gradle outputs
+.gradle/
+**/build/
+
+# Local Android SDK configuration
+local.properties
+
+# Android Studio user-specific files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
